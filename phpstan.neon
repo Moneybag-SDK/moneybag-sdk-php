@@ -1,0 +1,10 @@
+parameters:
+    level: 6
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - vendor
+        - tests/Integration/*
+    checkMissingIterableValueType: false
+    reportUnmatchedIgnoredErrors: false

@@ -1,0 +1,48 @@
+{
+    "name": "moneybag/moneybag-sdk-php",
+    "description": "Official PHP SDK for Moneybag Payment Gateway",
+    "type": "library",
+    "keywords": ["moneybag", "payment", "gateway", "php", "sdk", "bangladesh", "payment-gateway", "api"],
+    "homepage": "https://github.com/moneybag/moneybag-sdk-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moneybag Team",
+            "email": "developer@fitl.com.bd",
+            "homepage": "https://moneybag.com.bd"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/moneybag/moneybag-sdk-php/issues",
+        "source": "https://github.com/moneybag/moneybag-sdk-php",
+        "docs": "https://docs.moneybag.com.bd"
+    },
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "mockery/mockery": "^1.4",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpstan/phpstan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moneybag\\": "src/Moneybag/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moneybag\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "cs-fix": "vendor/bin/php-cs-fixer fix",
+        "phpstan": "vendor/bin/phpstan analyse src tests"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
