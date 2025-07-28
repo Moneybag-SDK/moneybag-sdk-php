@@ -1,10 +1,9 @@
 # Moneybag PHP SDK
 
-[![Latest Stable Version](https://poser.pugx.org/moneybag/moneybag-sdk-php/v)](https://packagist.org/packages/moneybag/moneybag-sdk-php)
-[![Total Downloads](https://poser.pugx.org/moneybag/moneybag-sdk-php/downloads)](https://packagist.org/packages/moneybag/moneybag-sdk-php)
-[![License](https://poser.pugx.org/moneybag/moneybag-sdk-php/license)](https://packagist.org/packages/moneybag/moneybag-sdk-php)
-[![PHP Version Require](https://poser.pugx.org/moneybag/moneybag-sdk-php/require/php)](https://packagist.org/packages/moneybag/moneybag-sdk-php)
-[![Build Status](https://github.com/moneybag/moneybag-sdk-php/workflows/Tests/badge.svg)](https://github.com/moneybag/moneybag-sdk-php/actions)
+[![Latest Stable Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/moneybag/moneybag-sdk-php)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-8892BF)](https://php.net)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/moneybag/moneybag-sdk-php)
 
 Official PHP SDK for Moneybag Payment Gateway. Simplify payment integration in your PHP applications with our easy-to-use SDK supporting checkout and payment verification.
 
