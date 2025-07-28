@@ -1,11 +1,13 @@
 # Moneybag PHP SDK
 
-[![Latest Stable Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/moneybag/moneybag-sdk-php)
+[![Latest Version](https://img.shields.io/badge/version-v1.0.0--beta.1-orange)](https://github.com/moneybag/moneybag-sdk-php)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-8892BF)](https://php.net)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/moneybag/moneybag-sdk-php)
 
 Official PHP SDK for Moneybag Payment Gateway. Simplify payment integration in your PHP applications with our easy-to-use SDK supporting checkout and payment verification.
+
+> ⚠️ **Beta Release**: This is a beta version for testing and feedback. Not recommended for production use yet.
 
 ## Requirements
 
@@ -15,10 +17,20 @@ Official PHP SDK for Moneybag Payment Gateway. Simplify payment integration in y
 
 ## Installation
 
-Install the SDK using Composer:
+### For Beta Testing
 
 ```bash
-composer require moneybag/moneybag-sdk-php
+composer require moneybag/moneybag-sdk-php:^1.0@beta
+```
+
+Or add to your `composer.json`:
+
+```json
+{
+    "require": {
+        "moneybag/moneybag-sdk-php": "^1.0@beta"
+    }
+}
 ```
 
 ## Quick Start
@@ -186,6 +198,27 @@ Check the `examples` directory for complete implementation examples:
 ## Support
 
 For support, email developer@fitl.com.bd or visit our [documentation](https://docs.moneybag.com.bd).
+
+## Beta Version Notice
+
+This is a **beta release** (v1.0.0-beta.1) intended for testing and feedback. 
+
+### What to Expect
+- Core functionality is complete and tested
+- API may undergo minor changes before stable release
+- We welcome bug reports and feature requests
+- Not recommended for production use yet
+
+### Providing Feedback
+Please report issues or suggestions on our [GitHub Issues](https://github.com/moneybag/moneybag-sdk-php/issues) page.
+
+### Roadmap to Stable Release
+- [ ] Gather community feedback
+- [ ] Address any reported issues
+- [ ] Finalize API design
+- [ ] Performance optimizations
+- [ ] Additional payment method support
+- [ ] Enhanced error messages
 
 ## License
 

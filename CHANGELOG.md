@@ -7,10 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2025-01-27
+## [1.0.0-beta.1] - 2025-01-27
 
 ### Added
-- Initial release of the Moneybag PHP SDK
+- Initial beta release of the Moneybag PHP SDK
 - `MoneybagClient` class for API interactions
 - Checkout session creation with `createCheckout()` method
 - Payment verification with `verifyPayment()` method
@@ -36,5 +36,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - API key header authentication
 - Input sanitization and validation
 
-[Unreleased]: https://github.com/moneybag/moneybag-sdk-php/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/moneybag/moneybag-sdk-php/releases/tag/v1.0.0
+### Known Issues
+- This is a beta release for testing and feedback
+- API may undergo minor changes before stable release
+- Not recommended for production use yet
+
+[Unreleased]: https://github.com/moneybag/moneybag-sdk-php/compare/v1.0.0-beta.1...HEAD
+[1.0.0-beta.1]: https://github.com/moneybag/moneybag-sdk-php/releases/tag/v1.0.0-beta.1
